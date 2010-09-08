@@ -1,0 +1,514 @@
+# Logfile created on Tue Sep 07 22:10:55 -0700 2010Cache read: views/test.host/items
+
+
+Processing ItemsController#index (for 0.0.0.0 at 2010-09-07 22:11:38) [GET]
+Cached fragment hit: test.host/items (0.3ms)
+Cached fragment miss: test.host/items (10.5ms)
+Completed in 15ms (View: 0 | 200 OK [http://test.host/items]
+Cache read: views/test.host/items
+Cache read: views/test.host/items
+
+
+Processing ItemsController#index (for 0.0.0.0 at 2010-09-07 22:12:19) [GET]
+Cached fragment hit: test.host/items (0.3ms)
+Cached fragment miss: test.host/items (1.0ms)
+Completed in 5ms (View: 0 | 200 OK [http://test.host/items]
+Cache read: views/test.host/items
+Cache read: views/test.host/items
+
+
+Processing ItemsController#index (for 0.0.0.0 at 2010-09-07 22:12:37) [GET]
+Completed in 3ms (View: 0 | 200 OK [http://test.host/items]
+Cache read: views/test.host/items
+Cache read: views/test.host/items
+
+
+Processing ItemsController#index (for 0.0.0.0 at 2010-09-07 22:13:52) [GET]
+Completed in 3ms (View: 0 | 200 OK [http://test.host/items]
+Cache read: views/test.host/items
+Cache read: views/test.host/items
+
+
+Processing ItemsController#index (for 0.0.0.0 at 2010-09-07 22:14:14) [GET]
+Cached fragment hit: test.host/items (0.3ms)
+Cached fragment miss: test.host/items (0.3ms)
+Completed in 4ms (View: 0 | 200 OK [http://test.host/items]
+Cache read: views/test.host/items
+Cache read: views/test.host/items
+
+
+Processing ItemsController#index (for 0.0.0.0 at 2010-09-07 22:33:15) [GET]
+Cached fragment hit: test.host/items (0.4ms)
+Cached fragment miss: test.host/items (1.0ms)
+Completed in 5ms (View: 0 | 200 OK [http://test.host/items]
+Cache read: views/test.host/items
+Cache read: views/test.host/items
+
+
+Processing ItemsController#index (for 0.0.0.0 at 2010-09-07 22:33:15) [GET]
+Cached fragment hit: test.host/items (0.4ms)
+Cached fragment miss: test.host/items (0.4ms)
+Completed in 2ms (View: 0 | 200 OK [http://test.host/items]
+Cache read: views/test.host/items
+Cache read: views/test.host/items
+
+
+Processing ItemsController#index (for 0.0.0.0 at 2010-09-07 22:35:36) [GET]
+Cached fragment hit: test.host/items (0.2ms)
+Cached fragment miss: test.host/items (0.9ms)
+Completed in 5ms (View: 0 | 200 OK [http://test.host/items]
+Cache read: views/test.host/items
+Cache read: views/test.host/items/edit/5
+
+
+Processing ItemsController#edit (for 0.0.0.0 at 2010-09-07 22:35:36) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 1ms (View: 0 | 200 OK [http://test.host/items/edit/5]
+Cache read: views/test.host/items/edit/5
+Cache read: views/test.host/items
+
+
+Processing ItemsController#index (for 0.0.0.0 at 2010-09-07 22:36:38) [GET]
+Cached fragment hit: test.host/items (0.3ms)
+Cached fragment miss: test.host/items (0.3ms)
+Completed in 5ms (View: 0 | 200 OK [http://test.host/items]
+Cache read: views/test.host/items
+Cache read: views/test.host/items/edit/5
+
+
+Processing ItemsController#edit (for 0.0.0.0 at 2010-09-07 22:36:38) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 1ms (View: 0 | 200 OK [http://test.host/items/edit/5]
+Cache read: views/test.host/items/edit/5
+Cache read: views/test.host/items
+
+
+Processing ItemsController#index (for 0.0.0.0 at 2010-09-07 22:41:22) [GET]
+Cached fragment hit: test.host/items (0.4ms)
+Cached fragment miss: test.host/items (0.3ms)
+Completed in 4ms (View: 0 | 200 OK [http://test.host/items]
+Cache read: views/test.host/items
+Cache read: views/test.host/items/edit/5
+
+
+Processing ItemsController#edit (for 0.0.0.0 at 2010-09-07 22:41:22) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 1ms (View: 0 | 200 OK [http://test.host/items/edit/5]
+Cache read: views/test.host/items/edit/5
+Cache read: views/test.host/items
+
+
+Processing ItemsController#index (for 0.0.0.0 at 2010-09-07 22:41:44) [GET]
+Cached fragment hit: test.host/items (0.2ms)
+Cached fragment miss: test.host/items (0.3ms)
+Completed in 4ms (View: 0 | 200 OK [http://test.host/items]
+Cache read: views/test.host/items
+Cache read: views/test.host/items/edit/5
+
+
+Processing ItemsController#edit (for 0.0.0.0 at 2010-09-07 22:41:44) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 1ms (View: 0 | 200 OK [http://test.host/items/edit/5]
+Cache read: views/test.host/items/edit/5
+Cache read: views/test.host/items/destroy/5
+
+
+Processing ItemsController#destroy (for 0.0.0.0 at 2010-09-07 22:41:44) [DELETE]
+  Parameters: {"id"=>"5"}
+Rendering items/destroy
+Cache read: views/test.host/items
+
+
+Processing ItemsController#index (for 0.0.0.0 at 2010-09-07 22:42:19) [GET]
+Cached fragment hit: test.host/items (0.3ms)
+Cached fragment miss: test.host/items (0.3ms)
+Completed in 4ms (View: 0 | 200 OK [http://test.host/items]
+Cache read: views/test.host/items
+Cache read: views/test.host/items/edit/5
+
+
+Processing ItemsController#edit (for 0.0.0.0 at 2010-09-07 22:42:19) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 1ms (View: 0 | 200 OK [http://test.host/items/edit/5]
+Cache read: views/test.host/items/edit/5
+Cache read: views/test.host/items/destroy/5
+
+
+Processing ItemsController#destroy (for 0.0.0.0 at 2010-09-07 22:42:19) [DELETE]
+  Parameters: {"id"=>"5"}
+Completed in 1ms (View: 0 | 200 OK [http://test.host/items/destroy/5]
+Cache read: views/test.host/items/destroy/5
+Cache read: views/test.host/items
+
+
+Processing ItemsController#index (for 0.0.0.0 at 2010-09-07 22:47:24) [GET]
+Cached fragment hit: test.host/items (0.7ms)
+Cached fragment miss: test.host/items (0.4ms)
+Completed in 5ms (View: 1 | 200 OK [http://test.host/items]
+Cache read: views/test.host/items
+Cache read: views/test.host/items/edit/5
+
+
+Processing ItemsController#edit (for 0.0.0.0 at 2010-09-07 22:47:24) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 1ms (View: 0 | 200 OK [http://test.host/items/edit/5]
+Cache read: views/test.host/items/edit/5
+Cache read: views/test.host/items
+Cache read: views//hello_world
+Cache read: views/test.host/items
+
+
+Processing ItemsController#index (for 0.0.0.0 at 2010-09-07 23:00:34) [GET]
+Cached fragment hit: test.host/items (0.3ms)
+Cached fragment miss: test.host/items (0.4ms)
+Completed in 4ms (View: 0 | 200 OK [http://test.host/items]
+Cache read: views/test.host/items
+Cache read: views/test.host/items/edit/5
+
+
+Processing ItemsController#edit (for 0.0.0.0 at 2010-09-07 23:00:34) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 1ms (View: 0 | 200 OK [http://test.host/items/edit/5]
+Cache read: views/test.host/items/edit/5
+Cache write: views/test.host/items/destroy/5
+Cache read: views/test.host/items/destroy/5
+
+
+Processing ItemsController#destroy (for 0.0.0.0 at 2010-09-07 23:00:34) [DELETE]
+  Parameters: {"id"=>"5"}
+Completed in 1ms (View: 0 | 200 OK [http://test.host/items/destroy/5]
+Cache read: views/test.host/items/destroy/5
+Cache read: views/test.host/items
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+Cache read: views//hello_world
+Cache write: views//hello_world
+Cache read: views//hello_world
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+Cache delete: views/test.host/items
+Cache read: views/test.host/items
+Cache write: views//hello_world
+Cache read: views//hello_world
+Cache delete: views//hello_world
+Cache read: views//hello_world
+Cache read: views/test.host/items
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+Cache read: views//hello_world
+Cache write: views//hello_world
+Cache read: views//hello_world
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+Cache delete: views/test.host/items
+Cache read: views/test.host/items
+Cache write: views//hello_world
+Cache read: views//hello_world
+Cache delete: views//hello_world
+Cache read: views//hello_world
+Cache read: views/test.host/items
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+Cache read: views//hello_world
+Cache write: views//hello_world
+Cache read: views//hello_world
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+Cache delete: views/test.host/items
+Cache read: views/test.host/items
+Cache write: views//hello_world
+Cache read: views//hello_world
+Cache delete: views//hello_world
+Cache read: views//hello_world
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+Cache delete: views/test.host/items
+Cache read: views/test.host/items
+Cache write: views//hello_world
+Cache read: views//hello_world
+Cache delete: views//hello_world
+Cache read: views//hello_world
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+Cache delete: views/test.host/items
+Cache read: views/test.host/items
+Cache write: views//hello_world
+Cache read: views//hello_world
+Cache delete: views//hello_world
+Cache read: views//hello_world
+Cache read: views/test.host/items
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+Cache read: views/hello_world
+Cache write: views/hello_world
+Cache read: views/hello_world
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+Cache delete: views/test.host/items
+Cache read: views/test.host/items
+Cache write: views/hello_world
+Cache read: views/hello_world
+Cache delete: views/hello_world
+Cache read: views/hello_world
+Cache read: views/test.host/items
+
+
+Processing ItemsController#index (for 0.0.0.0 at 2010-09-07 23:03:20) [GET]
+Cached fragment hit: test.host/items (0.3ms)
+Cached fragment miss: test.host/items (0.3ms)
+Completed in 4ms (View: 0 | 200 OK [http://test.host/items]
+Cache read: views/test.host/items
+Cache read: views/test.host/items/edit/5
+
+
+Processing ItemsController#edit (for 0.0.0.0 at 2010-09-07 23:03:20) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 1ms (View: 0 | 200 OK [http://test.host/items/edit/5]
+Cache read: views/test.host/items/edit/5
+Cache write: views/test.host/items/destroy/5
+Cache read: views/test.host/items/destroy/5
+
+
+Processing ItemsController#destroy (for 0.0.0.0 at 2010-09-07 23:03:20) [DELETE]
+  Parameters: {"id"=>"5"}
+Completed in 1ms (View: 0 | 200 OK [http://test.host/items/destroy/5]
+Cache read: views/test.host/items/destroy/5
+Cache read: views/test.host/items
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+Cache read: views/hello_world
+Cache write: views/hello_world
+Cache read: views/hello_world
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+Cache delete: views/test.host/items
+Cache read: views/test.host/items
+Cache write: views/hello_world
+Cache read: views/hello_world
+Cache delete: views/hello_world
+Cache read: views/hello_world
+Cache read: views/test.host/items
+
+
+Processing ItemsController#index (for 0.0.0.0 at 2010-09-07 23:04:30) [GET]
+Cached fragment hit: test.host/items (0.6ms)
+Cached fragment miss: test.host/items (0.4ms)
+Completed in 4ms (View: 0 | 200 OK [http://test.host/items]
+Cache read: views/test.host/items
+Cache read: views/test.host/items/edit/5
+
+
+Processing ItemsController#edit (for 0.0.0.0 at 2010-09-07 23:04:30) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 1ms (View: 0 | 200 OK [http://test.host/items/edit/5]
+Cache read: views/test.host/items/edit/5
+Cache write: views/test.host/items/destroy/5
+Cache read: views/test.host/items/destroy/5
+
+
+Processing ItemsController#destroy (for 0.0.0.0 at 2010-09-07 23:04:30) [DELETE]
+  Parameters: {"id"=>"5"}
+Cache read: views/test.host/items
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+Cache read: views/hello_world
+Cache write: views/hello_world
+Cache read: views/hello_world
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+Cache delete: views/test.host/items
+Cache read: views/test.host/items
+Cache write: views/hello_world
+Cache read: views/hello_world
+Cache delete: views/hello_world
+Cache read: views/hello_world
+Cache read: views/test.host/items
+
+
+Processing ItemsController#index (for 0.0.0.0 at 2010-09-07 23:05:00) [GET]
+Cached fragment hit: test.host/items (0.4ms)
+Cached fragment miss: test.host/items (0.6ms)
+Completed in 8ms (View: 3 | 200 OK [http://test.host/items]
+Cache read: views/test.host/items
+Cache read: views/test.host/items/edit/5
+
+
+Processing ItemsController#edit (for 0.0.0.0 at 2010-09-07 23:05:00) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 1ms (View: 0 | 200 OK [http://test.host/items/edit/5]
+Cache read: views/test.host/items/edit/5
+Cache write: views/test.host/items/destroy/5
+Cache read: views/test.host/items/destroy/5
+
+
+Processing ItemsController#destroy (for 0.0.0.0 at 2010-09-07 23:05:00) [DELETE]
+  Parameters: {"id"=>"5"}
+Cache read: views/test.host/items
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+Cache read: views/hello_world
+Cache write: views/hello_world
+Cache read: views/hello_world
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+Cache delete: views/test.host/items
+Cache read: views/test.host/items
+Cache write: views/hello_world
+Cache read: views/hello_world
+Cache delete: views/hello_world
+Cache read: views/hello_world
+Cache read: views/test.host/items
+
+
+Processing ItemsController#index (for 0.0.0.0 at 2010-09-07 23:05:09) [GET]
+Cached fragment hit: test.host/items (0.3ms)
+Cached fragment miss: test.host/items (0.3ms)
+Completed in 4ms (View: 0 | 200 OK [http://test.host/items]
+Cache read: views/test.host/items
+Cache read: views/test.host/items/edit/5
+
+
+Processing ItemsController#edit (for 0.0.0.0 at 2010-09-07 23:05:09) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 1ms (View: 0 | 200 OK [http://test.host/items/edit/5]
+Cache read: views/test.host/items/edit/5
+Cache write: views/test.host/items/destroy/5
+Cache read: views/test.host/items/destroy/5
+
+
+Processing ItemsController#destroy (for 0.0.0.0 at 2010-09-07 23:05:09) [DELETE]
+  Parameters: {"id"=>"5"}
+Expired fragment: views/index (0.2ms)
+Completed in 1ms (View: 0 | 200 OK [http://test.host/items/destroy/5]
+Cache read: views/test.host/items/destroy/5
+Cache read: views/test.host/items
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+Cache read: views/hello_world
+Cache write: views/hello_world
+Cache read: views/hello_world
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+Cache delete: views/test.host/items
+Cache read: views/test.host/items
+Cache write: views/hello_world
+Cache read: views/hello_world
+Cache delete: views/hello_world
+Cache read: views/hello_world
+Cache write: views/test.host/items/destroy/5
+Cache read: views/test.host/items/destroy/5
+
+
+Processing ItemsController#destroy (for 0.0.0.0 at 2010-09-07 23:05:34) [DELETE]
+  Parameters: {"id"=>"5"}
+Expired fragment: views/index (0.3ms)
+Completed in 3ms (View: 0 | 200 OK [http://test.host/items/destroy/5]
+Cache read: views/test.host/items/destroy/5
+Cache write: views/test.host/items/destroy/5
+Cache read: views/test.host/items/destroy/5
+
+
+Processing ItemsController#destroy (for 0.0.0.0 at 2010-09-07 23:05:42) [DELETE]
+  Parameters: {"id"=>"5"}
+Expired fragment: views/index (2.2ms)
+Completed in 6ms (View: 0 | 200 OK [http://test.host/items/destroy/5]
+Cache read: views/test.host/items/destroy/5
+Cache write: views/test.host/items/destroy/5
+Cache read: views/test.host/items
+
+
+Processing ItemsController#destroy (for 0.0.0.0 at 2010-09-07 23:06:49) [DELETE]
+  Parameters: {"id"=>"5"}
+Expired fragment: views/index (0.2ms)
+Completed in 4ms (View: 0 | 200 OK [http://test.host/items/destroy/5]
+Cache read: views/test.host/items
+Cache write: views/test.host/items/destroy/5
+Cache read: views/test.host/items
+
+
+Processing ItemsController#destroy (for 0.0.0.0 at 2010-09-07 23:07:48) [DELETE]
+  Parameters: {"id"=>"5"}
+Expired fragment: views/test.host/index (0.3ms)
+Completed in 4ms (View: 0 | 200 OK [http://test.host/items/destroy/5]
+Cache read: views/test.host/items
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+
+
+Processing ItemsController#destroy (for 0.0.0.0 at 2010-09-07 23:08:20) [DELETE]
+  Parameters: {"id"=>"5"}
+Expired fragment: views/test.host/index (0.7ms)
+Completed in 4ms (View: 0 | 200 OK [http://test.host/items/destroy/5]
+Cache read: views/test.host/items
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+
+
+Processing ItemsController#destroy (for 0.0.0.0 at 2010-09-07 23:09:40) [DELETE]
+  Parameters: {"id"=>"5"}
+Expired fragment: views/test.host/items (0.3ms)
+Completed in 4ms (View: 0 | 200 OK [http://test.host/items/destroy/5]
+Cache read: views/test.host/items
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+
+
+Processing ItemsController#destroy (for 0.0.0.0 at 2010-09-07 23:10:20) [DELETE]
+  Parameters: {"id"=>"5"}
+Expired fragment: views/test.host/items (0.3ms)
+Completed in 4ms (View: 0 | 200 OK [http://test.host/items/destroy/5]
+Cache read: views/test.host/items
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+
+
+Processing ItemsController#edit (for 0.0.0.0 at 2010-09-07 23:10:20) [DELETE]
+  Parameters: {"id"=>"5"}
+Completed in 1ms (View: 0 | 200 OK [http://test.host/items/edit/5]
+Cache read: views/test.host/items
+Cache read: views/test.host/items
+
+
+Processing ItemsController#index (for 0.0.0.0 at 2010-09-07 23:10:35) [GET]
+Cached fragment hit: test.host/items (0.2ms)
+Cached fragment miss: test.host/items (0.3ms)
+Completed in 4ms (View: 0 | 200 OK [http://test.host/items]
+Cache read: views/test.host/items
+Cache read: views/test.host/items/edit/5
+
+
+Processing ItemsController#edit (for 0.0.0.0 at 2010-09-07 23:10:35) [GET]
+  Parameters: {"id"=>"5"}
+Completed in 1ms (View: 0 | 200 OK [http://test.host/items/edit/5]
+Cache read: views/test.host/items/edit/5
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+
+
+Processing ItemsController#destroy (for 0.0.0.0 at 2010-09-07 23:10:35) [DELETE]
+  Parameters: {"id"=>"5"}
+Expired fragment: views/test.host/items (0.2ms)
+Completed in 1ms (View: 0 | 200 OK [http://test.host/items/destroy/5]
+Cache read: views/test.host/items
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+
+
+Processing ItemsController#edit (for 0.0.0.0 at 2010-09-07 23:10:35) [DELETE]
+  Parameters: {"id"=>"5"}
+Completed in 1ms (View: 0 | 200 OK [http://test.host/items/edit/5]
+Cache read: views/test.host/items
+Cache read: views/test.host/items
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+Cache read: views/hello_world
+Cache write: views/hello_world
+Cache read: views/hello_world
+Cache write: views/test.host/items
+Cache read: views/test.host/items
+Cache delete: views/test.host/items
+Cache read: views/test.host/items
+Cache write: views/hello_world
+Cache read: views/hello_world
+Cache delete: views/hello_world
+Cache read: views/hello_world
