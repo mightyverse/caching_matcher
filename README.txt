@@ -15,10 +15,17 @@ An rspec custom matcher to assert Rails action and fragment caching.
 
 == SYNOPSIS:
 
+In test.rb turn on caching and set cache_store to memcache:
+
+config.action_controller.perform_caching             = true
+config.cache_store = :mem_cache_store
+
+
 In spec_helper.rb, add into the config block:
 
 config.include(CachingMatcher)
 config.before { ActionController::Base.cache_store.clear }
+
 
 In RSpec Controller Tests:
 
