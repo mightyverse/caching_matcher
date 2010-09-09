@@ -1,3 +1,8 @@
 == 0.1.0 / 2010-09-07
 
 * First release as gem
+
+== 0.1.1 / 2010-09-08
+
+* Remove unused bin/caching_matcher
+
